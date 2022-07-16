@@ -4,7 +4,7 @@ const removeFromArray = function(array, ...args) {
 
     for (let i = 1; i <= indexLast; i++) {
         while (output.includes(arguments[i])) {
-            output.slice(output.indexOf(arguments[i]), 1);
+            output.splice(output.indexOf(arguments[i]), 1);
         }
 
 
